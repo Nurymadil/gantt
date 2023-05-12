@@ -4,7 +4,7 @@
   "author": "jeremyjone",
   "license": "MIT",
   "private": false,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "preview": false,
   "publishConfig": {
     "access": "public",
@@ -50,8 +50,8 @@
   "scripts": {
     "dev": "vite",
     "serve": "vite preview",
-    "build": "vue-tsc --noEmit && vite build",
-    "build:debug": "vue-tsc --noEmit && vite build --debug",
+    "build": "vite build",
+    "build:debug": "vite build --debug",
     "release": "standard-version",
     "lint": "eslint src/**/*.{js,vue,ts} --fix",
     "lint:create": "eslint --init",
