@@ -4,7 +4,7 @@
   "author": "jeremyjone",
   "license": "MIT",
   "private": false,
-  "version": "1.0.2",
+  "version": "1.0.3",
   "preview": false,
   "publishConfig": {
     "access": "public",
@@ -104,7 +104,7 @@
     "lint-staged": "^11.1.2",
     "prettier": "^2.4.1",
     "sass": "^1.35.2",
-    "standard-version": "^9.3.2",
+    "standard-version": "^9.5.0",
     "ts-jest": "26.4.4",
     "typescript": "^4.3.2",
     "vite": "^2.5.4",
@@ -115,11 +115,6 @@
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-customizable"
-    }
-  },
-  "standard-version": {
-    "scripts": {
-      "pretag": "bash ./scripts/update-doc.sh"
     }
   },
   "directories": {
