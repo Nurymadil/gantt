@@ -64,12 +64,7 @@ import { computed, ref, toRefs } from "vue";
 import { useInitParam } from "@/composables/useParam";
 import { useInitRootRef } from "@/composables/useRootRef";
 import { Variables } from "@/constants/vars";
-import XTable from "@/components/table/index.vue";
-import XGantt from "@/components/gantt/index.vue";
-import XBtn from "@/components/common/Btn.vue";
 import XDrawer from "@/components/common/Drawer.vue";
-import XToast from "@/components/common/Toast.vue";
-import XSuccessBar from "@/components/common/SuccessBar.vue";
 import useWheel from "@/composables/useWheel";
 import useResize, {
   useBtnPosition,
@@ -193,7 +188,6 @@ defineExpose({
   jumpToDate,
   setHeaderUnit,
 });
-console.log(XDrawer);
 </script>
 
 <style scoped lang="scss">
